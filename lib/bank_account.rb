@@ -10,8 +10,7 @@ class BankAccount
   end
 
   def deposit(amount)
-    @balance = @balance + amount
-    # I tried it this way! Different Stuff!
+    @balance += amount #asdfasdfaxdffgghga
   end
 
   def withdraw(amount)
